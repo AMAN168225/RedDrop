@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homePage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.quotes {
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0.1, 0.1, 0.1, 0.1) 20%, rgba(0, 0, 0, 0.8) 100%), url("./hackimg/bg4.jpg");
+    color: aliceblue;
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lifesave {
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    letter-spacing: 0.02rem;
+    word-spacing: 0.3rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+span {
+    color: #930002;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+
+}
+
+h1 {
+
+    color: #930002;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+button {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    transition: all 0.5s;
+    padding: 15px 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 1.5rem;
+
+}
+
+button:hover {
+    background-color: hsla(359, 92%, 31%, 0.783);
+    cursor: pointer;
+    color: white;
+}
+.buttons1 {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+}
+.donor1 {
+    background-color: #790204;
+    color: aliceblue;
+}
+
+.donor1:hover {
+    background-color: #930002;
+    color: aliceblue;
+}

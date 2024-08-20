@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    overflow-x: hidden;
+}
+.navBar {
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+button {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    transition: all 0.5s;
+    padding: 15px 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 1.5rem;
+
+}
+
+button:hover {
+    background-color: #930002;
+    cursor: pointer;
+    color: white;
+}
+.logo1 {
+    height: 6rem;
+    width: 25rem;
+}

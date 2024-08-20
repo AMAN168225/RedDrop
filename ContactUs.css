@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homePage {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y:auto;
+
+}
+.navBar {
+    height: 2vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+button {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    transition: all 0.5s;
+    padding: 15px 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 1.5rem;
+
+}
+
+button:hover {
+    background-color: #930002;
+    cursor: pointer;
+    color: white;
+}
+.logo1 {
+    height: 6rem;
+    width: 25rem;
+}
+.BloodEvent {
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.EventNavigation {
+        width: 18vw;
+        background-color: #930002;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+.myfeature {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.feature {
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+}
+
+.allitems {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo3 {
+    height: 4rem;
+    width: 17rem;
+    border-radius: 2rem;
+
+}
+.ContactUs{
+    display:flex;
+    flex-direction:column;
+}
+.donorform{
+    display:flex;
+    flex-direction:column;
+    border-radius: 1vw;
+     box-shadow: 0px 0 10px #c9c9c9;
+     margin:0.2vw;
+     margin-left:2vw;
+     width:50vw;
+     height:60vh;
+
+}
+.donor{
+    display:flex;
+}
+.left{
+    display:flex;
+    flex-direction:column;
+    color:rgb(83, 83, 83);
+    font-weight:bold;
+    margin-left:2rem;
+    padding-top:10px;
+    padding-bottom:2px;
+
+}
+input{
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    padding: 5px;
+    width:26vw;
+    height:5vh;
+    margin-bottom:2px;
+    margin-top:2px;
+}
+.received{
+    background-color: #f2f2f2;
+  padding: 0.3vw;
+  color: #930002;
+  font-weight:bold;
+  font-size:2rem;
+
+}
+.sub {
+    background-color: #790402;
+    color: aliceblue;
+    width: 10vw;
+    font-size: 1.2rem;
+    height: auto;
+
+
+
+
+}
+
+.sub:hover {
+    background-color: #930002;
+    color: aliceblue;
+}
